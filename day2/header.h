@@ -16,3 +16,9 @@ int sum_of_series_1(int);
 
 int is_armstrong(int);
 
+int sum_of_divisors(int);
+int amicable(int,int);
+
+void take_inputs();
+void menu(int);
+

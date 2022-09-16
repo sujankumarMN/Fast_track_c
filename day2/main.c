@@ -29,5 +29,12 @@ void main()
 	result=is_armstrong(372);
 	display(result);
 
+	result=sum_of_divisors(220);
+	display(result);
+	result=amicable(220,284);
+	display(result);
+
+	take_inputs();
+
 
 }

@@ -120,3 +120,34 @@ int is_armstrong(int n)
 	else
 		return 0;
 }
+
+//p8
+int sum_of_divisors(int n)
+{
+	int i,rem,sum=0;
+	for(i=1;i<=n/2;i++)
+	{
+		if(0==n%i)
+			sum=sum+i;
+
+	}
+	return sum;
+}
+int amicable(int n1, int n2)
+{
+	if(sum_of_divisors(n1)&&sum_of_divisors(n2)==n1)
+		return 1;
+	else
+		return 0;
+}
+
+//p9
+void take_inputs()
+{
+	int a,b,choice;
+	printf("Enter 2 numbers");
+	scanf("%d%d",&a,&b);
+	printf(" numbers %d %d",a,b);
+	//scanf("%d , %d"a,b);
+
+}
