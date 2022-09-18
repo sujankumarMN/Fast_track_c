@@ -142,12 +142,89 @@ int amicable(int n1, int n2)
 }
 
 //p9
-void take_inputs()
+void menu()
 {
 	int a,b,choice;
-	printf("Enter 2 numbers");
+	printf("Enter 2 numbers\n");
 	scanf("%d%d",&a,&b);
-	printf(" numbers %d %d",a,b);
-	//scanf("%d , %d"a,b);
+	printf("\n Enter the choice\n \\
+		1.Sum of numbers \n \\
+		2.Difference of numbers \n \\
+		3.Multiplication of numbers \n");
+	scanf("%d",&choice);
 
+
+
+	//int result;
+	switch(choice)
+	{
+		case 1: 
+		{
+			printf("%d\n", a+b);
+			break;
+		}
+		case 2:
+		{
+			printf("%d\n",a-b);
+			break;
+		}
+		case 3:
+		{
+			printf("%d\n",a*b);
+			break;
+		}
+		default: printf("Ohh bhai bahi bhai!!");
+
+	}
+}
+
+//p10
+void cube()
+{
+	int a;
+	printf("Enter the side:");
+	scanf("%d",&a);
+	printf("volume:%d",a*a*a);
+}
+void cuboid()
+{
+	int a,b,c;
+	printf("Enter the length,breadth,height (sapearated by space):");
+	scanf("%d%d%d",&a,&b,&c);
+	printf("volume:%d",a*b*c);
+	
+}
+void sphere()
+{
+	int r,h;
+	printf("Enter the radius,height (sapearated by space):");
+	scanf("%d%d",&r,&h);
+	printf("volume:%f",4/3*PI*r*r*r);
+}
+void cylinder()
+{
+	int r,h;
+	printf("Enter the radius,height (sapearated by space):");
+	scanf("%d%d",&r,&h);
+	printf("volume:%f",PI*r*r*h);
+
+}
+void cone()
+{
+	int r,h;
+	printf("Enter the radius,height (sapearated by space):");
+	scanf("%d%d",&r,&h);
+	printf("volume:%f",PI*r*r*h/3);
+	
+}
+
+//p11
+void bill(int units)
+{
+	if(units>=0&&units<=200)
+		printf("Bill:%d",units);
+	else if(units>200&&units<=300)
+		printf("Bill:%d",200+(units-200)*1.5);
+	else
+		printf("Bill:%d",350+(units-300)*2);
 }

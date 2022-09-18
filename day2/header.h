@@ -1,4 +1,5 @@
 #define SIZE 10
+#define PI 3.14
 void display(int);
 int sum_of_digits(int);
 
@@ -19,6 +20,13 @@ int is_armstrong(int);
 int sum_of_divisors(int);
 int amicable(int,int);
 
-void take_inputs();
-void menu(int);
+//void take_inputs();
+//void menu();
 
+void cube();
+void cuboid();
+void sphere();
+void cylinder();
+void cone();
+
+void bill(int);

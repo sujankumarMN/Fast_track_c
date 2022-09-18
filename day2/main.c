@@ -34,7 +34,33 @@ void main()
 	result=amicable(220,284);
 	display(result);
 
-	take_inputs();
+	//menu();
+	/*
+
+	int c;
+	printf("***select the solid*** \n\\
+	1.cube\n\\
+	2.cuboid\n\\
+	3.sphere\n\\
+	4.cylider\n\\
+	5.cone\n ");
+	scanf("%d",&c);
+	switch(c)
+	{
+		case 1: cube();break;
+		case 2: cuboid();break;
+		case 3: sphere();break;
+		case 4: cylinder();break;
+		case 5: cone();break;
+		default: printf("bhai bahi bhaiii!!");
+	}*/
+
+	bill(302);
+	
+
+
+
+	
 
 
 }
