@@ -1,0 +1,10 @@
+Airlift	2016	130	0.0	8
+Chhalaang	2020	136	0.0	6
+Chhapaak	2020	120	0.0	5
+Chhichhore	2019	143	0.0	8
+Dangal	2016	161	0.0	8
+Rustom	2016	148	0.0	7
+Saala_Khadoos	2016	109	0.0	7
+Soorarai_Pottru	2020	153	0.0	9
+Stree	2018	128	0.0	7
+Tumbbad	2018	104	0.0	8
